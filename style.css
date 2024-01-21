@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+.user {
+    color: gray;
+    font-size: large;
+    font-style: italic, bold;
+  }
+
+  .message {
+    border: 2px dotted darkblue;
+    color: blue;
+    background-color: beige;
+  }
